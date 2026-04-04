@@ -100,6 +100,7 @@
 /ip dns static add name=bihus.info type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bitdefender.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bitnami.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=bkbn.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=blackseanews.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=blinkshot.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bluehost.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -603,6 +604,7 @@
 /ip dns static add name=networksolutions.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=new.abb.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=newark.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=newgrounds.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=news.google.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=newsroom.porsche.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=newsru.co.il type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -659,6 +661,7 @@
 /ip dns static add name=onfastspring.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=onlinesim.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=onshape.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=open3dlab.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=openai.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=openh264.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=openmedia.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -1030,6 +1033,7 @@
 /ip dns static add name=urlr.me type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=usa.one type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=usatoday.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=usebottles.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=usher.ttvnw.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=v.vrv.co type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=vagrantcloud.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
