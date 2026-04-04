@@ -196,6 +196,7 @@ ipset=/danbooru.donmai.us/vpn_domains
 ipset=/data-cdn.mbamupdates.com/vpn_domains
 ipset=/data.cline.bot/vpn_domains
 ipset=/deckbrew.xyz/vpn_domains
+ipset=/decky.xyz/vpn_domains
 ipset=/decrypt.day/vpn_domains
 ipset=/deepl.com/vpn_domains
 ipset=/deepstatemap.live/vpn_domains

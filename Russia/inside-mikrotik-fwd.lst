@@ -196,6 +196,7 @@
 /ip dns static add name=data-cdn.mbamupdates.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=data.cline.bot type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=deckbrew.xyz type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=decky.xyz type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=decrypt.day type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=deepl.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=deepstatemap.live type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
