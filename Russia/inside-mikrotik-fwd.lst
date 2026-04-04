@@ -51,6 +51,7 @@
 /ip dns static add name=anime-portal.su type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=animebest.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=animedia.tv type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=animego.online type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=animego.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=animespirit.ru type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=anistar.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
