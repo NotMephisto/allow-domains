@@ -69,14 +69,14 @@
 <details>
   <summary>Russia inside</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst)
-- [Dnsmasq nfset](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-dnsmasq-nfset.lst)
-- [Dnsmasq ipset](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-dnsmasq-ipset.lst)
-- [ClashX](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-clashx.lst)
-- [Kvas](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-kvas.lst)
-- [Mikrotik](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/inside-mikrotik-fwd.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/russia_inside.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/russia_inside_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/inside-raw.lst)
+- [Dnsmasq nfset](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/inside-dnsmasq-nfset.lst)
+- [Dnsmasq ipset](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/inside-dnsmasq-ipset.lst)
+- [ClashX](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/inside-clashx.lst)
+- [Kvas](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/inside-kvas.lst)
+- [Mikrotik](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Russia/inside-mikrotik-fwd.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/russia_inside.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/russia_inside_domain.mrs)
 - geosite:russia-inside
 
 </details>
@@ -84,14 +84,14 @@
 <details>
   <summary>Russia Outside</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/outside-raw.lst)
-- [Dnsmasq nfset](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/outside-dnsmasq-nfset.lst)
-- [Dnsmasq ipset](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/outside-dnsmasq-ipset.lst)
-- [ClashX](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/outside-clashx.lst)
-- [Kvas](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/outside-kvas.lst)
-- [Mikrotik](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/outside-mikrotik-fwd.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/russia_outside.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/russia_outside_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/outside-raw.lst)
+- [Dnsmasq nfset](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/outside-dnsmasq-nfset.lst)
+- [Dnsmasq ipset](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/outside-dnsmasq-ipset.lst)
+- [ClashX](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/outside-clashx.lst)
+- [Kvas](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Russia/outside-kvas.lst)
+- [Mikrotik](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Russia/outside-mikrotik-fwd.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/russia_outside.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/russia_outside_domain.mrs)
 - geosite:russia-outside
 
 </details>
@@ -99,13 +99,13 @@
 <details>
   <summary>Ukraine</summary>
 
-- [Dnsmasq nfset](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Ukraine/inside-dnsmasq-nfset.lst)
-- [Dnsmasq ipset](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Ukraine/inside-dnsmasq-ipset.lst)
-- [ClashX](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Ukraine/inside-clashx.lst)
-- [Kvas](https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Ukraine/inside-kvas.lst)
-- [Mikrotik](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Ukraine/inside-mikrotik-fwd.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/ukraine_inside.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/ukraine_inside_domain.mrs)
+- [Dnsmasq nfset](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Ukraine/inside-dnsmasq-nfset.lst)
+- [Dnsmasq ipset](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Ukraine/inside-dnsmasq-ipset.lst)
+- [ClashX](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Ukraine/inside-clashx.lst)
+- [Kvas](https://raw.githubusercontent.com/NotMephisto/allow-domains/main/Ukraine/inside-kvas.lst)
+- [Mikrotik](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Ukraine/inside-mikrotik-fwd.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/ukraine_inside.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/ukraine_inside_domain.mrs)
 - geosite:ukraine
 
 </details>
@@ -113,9 +113,9 @@
 <details>
   <summary>Anime</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Categories/anime.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/anime.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/anime_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Categories/anime.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/anime.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/anime_domain.mrs)
 - geosite:russia-inside@anime
 
 </details>
@@ -123,9 +123,9 @@
 <details>
   <summary>Block</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Categories/block.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/block.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/block_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Categories/block.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/block.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/block_domain.mrs)
 - geosite:russia-inside@block
 
 </details>
@@ -133,9 +133,9 @@
 <details>
   <summary>GeoBlock</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Categories/geoblock.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/geoblock.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/geoblock_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Categories/geoblock.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/geoblock.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/geoblock_domain.mrs)
 - geosite:russia-inside@geoblock
 
 </details>
@@ -143,9 +143,9 @@
 <details>
   <summary>News</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Categories/news.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/news.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/news_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Categories/news.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/news.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/news_domain.mrs)
 - geosite:russia-inside@news
 
 </details>
@@ -153,9 +153,9 @@
 <details>
   <summary>Porn</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Categories/porn.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/porn.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/porn_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Categories/porn.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/porn.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/porn_domain.mrs)
 - geosite:russia-inside@porn
 
 </details>
@@ -163,9 +163,9 @@
 <details>
   <summary>H.O.D.C.A (Hetzner, OVH, DO, Cloudflare, AWS</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Categories/hodca.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/hodca.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/hodca_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Categories/hodca.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/hodca.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/hodca_domain.mrs)
 - geosite:russia-inside@hodca
 
 </details>
@@ -173,30 +173,30 @@
 <details>
   <summary>Cloudflare</summary>
 
-- [Subnets](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv4/cloudflare.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/cloudflare.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/cloudflare_domain.mrs)
-- [MRS ipcidr](https://github.com/itdoginfo/allow-domains/releases/latest/download/cloudflare_ipcidr.mrs)
+- [Subnets](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Subnets/IPv4/cloudflare.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/cloudflare.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/cloudflare_domain.mrs)
+- [MRS ipcidr](https://github.com/NotMephisto/allow-domains/releases/latest/download/cloudflare_ipcidr.mrs)
 
 </details>
 
 <details>
   <summary>Discord</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/discord.lst)
-- [Subnets](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv4/discord.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/discord.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/discord_domain.mrs)
-- [MRS ipcidr](https://github.com/itdoginfo/allow-domains/releases/latest/download/discord_ipcidr.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Services/discord.lst)
+- [Subnets](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Subnets/IPv4/discord.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/discord.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/discord_domain.mrs)
+- [MRS ipcidr](https://github.com/NotMephisto/allow-domains/releases/latest/download/discord_ipcidr.mrs)
 
 </details>
 
 <details>
   <summary>HDRezka</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/hdrezka.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/hdrezka.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/hdrezka_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Services/hdrezka.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/hdrezka.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/hdrezka_domain.mrs)
 - geosite:russia-inside@hdrezka
 
 </details>
@@ -204,11 +204,11 @@
 <details>
   <summary>Meta*</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/meta.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/meta.srs)
-- [Subnets](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv4/meta.lst)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/meta_domain.mrs)
-- [MRS ipcidr](https://github.com/itdoginfo/allow-domains/releases/latest/download/meta_ipcidr.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Services/meta.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/meta.srs)
+- [Subnets](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Subnets/IPv4/meta.lst)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/meta_domain.mrs)
+- [MRS ipcidr](https://github.com/NotMephisto/allow-domains/releases/latest/download/meta_ipcidr.mrs)
 - geosite:russia-inside@meta
 
 </details>
@@ -216,20 +216,20 @@
 <details>
   <summary>Telegram</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/telegram.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/telegram.srs)
-- [Subnets](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv4/telegram.lst)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/telegram_domain.mrs)
-- [MRS ipcidr](https://github.com/itdoginfo/allow-domains/releases/latest/download/telegram_ipcidr.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Services/telegram.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/telegram.srs)
+- [Subnets](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Subnets/IPv4/telegram.lst)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/telegram_domain.mrs)
+- [MRS ipcidr](https://github.com/NotMephisto/allow-domains/releases/latest/download/telegram_ipcidr.mrs)
 
 </details>
 
 <details>
   <summary>Tik-Tok</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/tiktok.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/tiktok.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/tiktok_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Services/tiktok.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/tiktok.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/tiktok_domain.mrs)
 - geosite:russia-inside@tiktok
 
 </details>
@@ -237,11 +237,11 @@
 <details>
   <summary>Twitter</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/twitter.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/twitter.srs)
-- [Subnets](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv4/twitter.lst)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/twitter_domain.mrs)
-- [MRS ipcidr](https://github.com/itdoginfo/allow-domains/releases/latest/download/twitter_ipcidr.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Services/twitter.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/twitter.srs)
+- [Subnets](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Subnets/IPv4/twitter.lst)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/twitter_domain.mrs)
+- [MRS ipcidr](https://github.com/NotMephisto/allow-domains/releases/latest/download/twitter_ipcidr.mrs)
 - geosite:russia-inside@twitter
 
 </details>
@@ -249,9 +249,9 @@
 <details>
   <summary>YouTube</summary>
 
-- [RAW](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/youtube.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/youtube.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/youtube_domain.mrs)
+- [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Services/youtube.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/youtube.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/youtube_domain.mrs)
 - geosite:russia-inside@youtube
 
 </details>
@@ -259,10 +259,10 @@
 <details>
   <summary>Google Meet</summary>
 
-- [Subnets](https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Subnets/IPv4/google_meet.lst)
-- [SRS](https://github.com/itdoginfo/allow-domains/releases/latest/download/google_meet.srs)
-- [MRS domain](https://github.com/itdoginfo/allow-domains/releases/latest/download/google_meet_domain.mrs)
-- [MRS ipcidr](https://github.com/itdoginfo/allow-domains/releases/latest/download/google_meet_ipcidr.mrs)
+- [Subnets](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Subnets/IPv4/google_meet.lst)
+- [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/google_meet.srs)
+- [MRS domain](https://github.com/NotMephisto/allow-domains/releases/latest/download/google_meet_domain.mrs)
+- [MRS ipcidr](https://github.com/NotMephisto/allow-domains/releases/latest/download/google_meet_ipcidr.mrs)
 
 </details>
 
