@@ -176,6 +176,7 @@
 /ip dns static add name=connect.ngrok-agent.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=contabo.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=coomer.st type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=coomer.su type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=copilot.microsoft.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=corsair.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=coursera.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

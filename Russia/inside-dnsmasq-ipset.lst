@@ -176,6 +176,7 @@ ipset=/community.sophos.com/vpn_domains
 ipset=/connect.ngrok-agent.com/vpn_domains
 ipset=/contabo.com/vpn_domains
 ipset=/coomer.st/vpn_domains
+ipset=/coomer.su/vpn_domains
 ipset=/copilot.microsoft.com/vpn_domains
 ipset=/corsair.com/vpn_domains
 ipset=/coursera.org/vpn_domains
