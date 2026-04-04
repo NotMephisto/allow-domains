@@ -52,7 +52,6 @@ ipset=/anime-portal.su/vpn_domains
 ipset=/animebest.org/vpn_domains
 ipset=/animedia.tv/vpn_domains
 ipset=/animego.online/vpn_domains
-ipset=/animego.org/vpn_domains
 ipset=/animespirit.ru/vpn_domains
 ipset=/anistar.org/vpn_domains
 ipset=/anistars.ru/vpn_domains

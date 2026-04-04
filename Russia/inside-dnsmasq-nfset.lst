@@ -52,7 +52,6 @@ nftset=/anime-portal.su/4#inet#fw4#vpn_domains
 nftset=/animebest.org/4#inet#fw4#vpn_domains
 nftset=/animedia.tv/4#inet#fw4#vpn_domains
 nftset=/animego.online/4#inet#fw4#vpn_domains
-nftset=/animego.org/4#inet#fw4#vpn_domains
 nftset=/animespirit.ru/4#inet#fw4#vpn_domains
 nftset=/anistar.org/4#inet#fw4#vpn_domains
 nftset=/anistars.ru/4#inet#fw4#vpn_domains
