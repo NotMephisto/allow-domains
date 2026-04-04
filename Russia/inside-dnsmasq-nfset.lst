@@ -468,6 +468,7 @@ nftset=/kara.su/4#inet#fw4#vpn_domains
 nftset=/kasparov.ru/4#inet#fw4#vpn_domains
 nftset=/kavkaz-uzel.eu/4#inet#fw4#vpn_domains
 nftset=/kavkazr.com/4#inet#fw4#vpn_domains
+nftset=/kemono.cr/4#inet#fw4#vpn_domains
 nftset=/kemono.su/4#inet#fw4#vpn_domains
 nftset=/keysight.com/4#inet#fw4#vpn_domains
 nftset=/kilo.ai/4#inet#fw4#vpn_domains

@@ -468,6 +468,7 @@
 /ip dns static add name=kasparov.ru type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=kavkaz-uzel.eu type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=kavkazr.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=kemono.cr type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=kemono.su type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=keysight.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=kilo.ai type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

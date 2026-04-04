@@ -468,6 +468,7 @@ ipset=/kara.su/vpn_domains
 ipset=/kasparov.ru/vpn_domains
 ipset=/kavkaz-uzel.eu/vpn_domains
 ipset=/kavkazr.com/vpn_domains
+ipset=/kemono.cr/vpn_domains
 ipset=/kemono.su/vpn_domains
 ipset=/keysight.com/vpn_domains
 ipset=/kilo.ai/vpn_domains
