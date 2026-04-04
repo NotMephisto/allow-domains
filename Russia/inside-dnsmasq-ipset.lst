@@ -756,6 +756,7 @@ ipset=/realist.online/vpn_domains
 ipset=/recraft.ai/vpn_domains
 ipset=/reddxxx.com/vpn_domains
 ipset=/redgifs.com/vpn_domains
+ipset=/redirect.archlinux.org/vpn_domains
 ipset=/redis.io/vpn_domains
 ipset=/redislabs.com/vpn_domains
 ipset=/redshieldvpn.com/vpn_domains
