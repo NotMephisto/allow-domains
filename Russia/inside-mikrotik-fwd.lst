@@ -84,6 +84,7 @@
 /ip dns static add name=avira.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=azathabar.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=azattyq.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=azureedge.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=babook.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=baginya.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=baikal-journal.ru type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -624,7 +625,7 @@
 /ip dns static add name=nitropdf.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=nnmclub.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=nnmstatic.win type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
-/ip dns static add name=nordaccount.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=nordaccount.comazureedge.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=nordcdn.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=nordvpn.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=notepad-plus-plus.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
