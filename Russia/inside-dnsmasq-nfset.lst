@@ -786,7 +786,6 @@ nftset=/realist.online/4#inet#fw4#vpn_domains
 nftset=/recraft.ai/4#inet#fw4#vpn_domains
 nftset=/reddxxx.com/4#inet#fw4#vpn_domains
 nftset=/redgifs.com/4#inet#fw4#vpn_domains
-nftset=/redirect.archlinux.org/4#inet#fw4#vpn_domains
 nftset=/redis.io/4#inet#fw4#vpn_domains
 nftset=/redislabs.com/4#inet#fw4#vpn_domains
 nftset=/redshieldvpn.com/4#inet#fw4#vpn_domains
