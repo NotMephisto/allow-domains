@@ -20,6 +20,8 @@ adguard.com
 adidas.com
 adminforge.de
 adobe.com
+adobe.io
+adobe.net
 ads-twitter.com
 adultmult.tv
 affinity.studio
@@ -58,6 +60,7 @@ anistars.ru
 annas-archive.org
 ansys.com
 anthropic.com
+anthropic.qualtrics.com
 any.do
 aol.com
 api.jetbrains.ai
@@ -84,8 +87,13 @@ autodesk.com
 avira.com
 azathabar.com
 azattyq.org
+<<<<<<< HEAD
 azureedge.net
+=======
+babepedia.com
+>>>>>>> upstream/main
 babook.org
+backend-v2.crixet.com
 baginya.org
 baikal-journal.ru
 bato.to
@@ -127,7 +135,6 @@ byteoversea.com
 canva.com
 canva.dev
 capacitorjs.com
-capcut.com
 carnegieendowment.org
 carrefouruae.com
 cats.com
@@ -140,7 +147,9 @@ cdromance.org
 cdw.com
 censor.net
 censortracker.org
+chainreactioncycles.com
 chaos.com
+charhub.io
 chat.com
 chat.openai.com.cdn.cloudflare.net
 chatgpt.com
@@ -157,6 +166,7 @@ clamav.net
 clashofclans.com
 clashroyaleapp.com
 claude.ai
+claude.com
 clevelandclinic.org
 clickup.com
 clip.opus.pro
@@ -195,6 +205,8 @@ cyxymu.info
 daemon-tools.cc
 dailylviv.com
 danbooru.donmai.us
+dashboard.algolia.com
+dashboard.gitguardian.com
 data-cdn.mbamupdates.com
 data.cline.bot
 deckbrew.xyz
@@ -250,10 +262,10 @@ doramalive.ru
 doramy.club
 dovod.online
 download3.omnissa.com
+downloads.intercomcdn.com
 doxa.team
 dpidetector.org
 dreamhost.com
-dreamina.capcut.com
 dub.sh
 ducati.com
 dumka.media
@@ -293,6 +305,7 @@ f95-zone.to
 facebook.com
 facebook.net
 fansly.com
+fapello.com
 fast-torrent.club
 fast.com
 fastpic.org
@@ -308,6 +321,7 @@ filmix.day
 filmix.fan
 filmix.fm
 filmix.la
+fivetran.com
 flibusta.is
 flibusta.net
 flipboard.com
@@ -360,8 +374,10 @@ global.fncstatic.com
 glpals.com
 godaddy.com
 gofile.io
+gofund.me
 gofundme.com
 golosameriki.com
+gonift.com
 gonitro.com
 goodreads.com
 googlevideo.com
@@ -375,6 +391,7 @@ graty.me
 graylog.org
 grizzlysms.com
 grok.com
+grok.x.com
 groq.com
 groupon.com
 guilded.gg
@@ -415,6 +432,7 @@ hqporner.com
 hromadske.ua
 hs.fi
 htmhell.dev
+httptoolkit.com
 hume.ai
 hybrid-analysis.com
 i.sakh.com
@@ -422,6 +440,7 @@ ibm.com
 ibytedtos.com
 idelreal.org
 iditelesombase.org
+idolcomplex.com
 iedb.org
 ig.me
 ign.com
@@ -443,6 +462,7 @@ intel.de
 intel.nl
 intelix.sophos.com
 interactivebrokers.co.uk
+intercom.io
 interfax.com.ua
 internalfb.com
 intuit.com
@@ -458,6 +478,7 @@ jamf.com
 jetbrains.com
 jetbrains.space
 jnn-pa.googleapis.com
+joesandbox.com
 jskor.ill.in.ua
 jut-su.net
 jut.su
@@ -499,6 +520,7 @@ lambdalabs.com
 lamcdn.net
 langdock.com
 lantern.io
+last.fm
 ldoceonline.com
 le-production.tv
 leafletjs.com
@@ -552,6 +574,7 @@ mediazona.ca
 medicalnewstoday.com
 medium.com
 meduza.io
+meetup.com
 mega.nz
 megapeer.ru
 megapeer.vip
@@ -577,6 +600,7 @@ mouser.com
 mouser.fi
 mssg.me
 mullvad.net
+multisim.com
 multporn.net
 muscdn.com
 musical.ly
@@ -621,6 +645,7 @@ ngrok.com
 nhentai.com
 nhentai.net
 nhl.com
+ni.com
 nih.gov
 nike.com
 nippon.com
@@ -671,6 +696,7 @@ opensea.io
 opentrackr.org
 opposition-news.com
 oracle.com
+oraclecloud.com
 ovd.info
 ovd.legal
 ovd.news
@@ -698,12 +724,14 @@ penguin.com
 penguinrandomhouse.com
 periscope.tv
 pexels.com
+philiascans.org
 phncdn.com
 phncdn.com.sds.rncdn7.com
 pimpletv.ru
 pingdom.com
 piratbit.top
 pixabay.com
+pixiv.net
 pkgs.tailscale.com
 platform.activestate.com
 playboy.com
@@ -742,6 +770,8 @@ pscp.tv
 psiphon.ca
 public.parsec.app
 pvpessence.com
+qodana.cloud
+qoder.com
 qt.io
 qualcomm.com
 quicknode.com
@@ -816,8 +846,12 @@ salesforce-sites.com
 salesforce.com
 salesforceiq.com
 salesforceliveagent.com
+sankakuapi.com
+sankakucomplex.com
+sankakustatic.com
 sap.com
 saverudata.net
+schneider-electric.com
 sci-hub.se
 sci-hub.st
 scrollrevealjs.org
@@ -839,6 +873,7 @@ scryde7.net
 scryde8.net
 scryde9.net
 sdxcentral.com
+se.com
 searchfloor.org
 seasonvar.ru
 seconddinnertech.com
@@ -852,6 +887,7 @@ servarr.com
 severreal.org
 sfdcopens.com
 shikimori.me
+shikimori.one
 shinyhardware.co.uk
 shiza-project.com
 shop.gameloft.com
@@ -912,6 +948,7 @@ steamstat.info
 strana.news
 strana.today
 strava.com
+streamable.com
 suggestqueries.google.com
 supercell.com
 supersliv.biz
@@ -1039,6 +1076,7 @@ usher.ttvnw.net
 v.vrv.co
 vagrantcloud.com
 veeam.com
+verificationacademy.com
 verstka.media
 vesma.one
 vesma.today
@@ -1065,6 +1103,7 @@ wa.me
 walmart.com
 watchguard.com
 watermarkremover.io
+wbagora.com
 wbgames.com
 weather.com
 webmd.com
@@ -1072,6 +1111,7 @@ webnames.ca
 webtoons.com
 weebly.com
 welt.de
+wetransfer.com
 whatsapp.biz
 whatsapp.com
 whatsapp.net
@@ -1100,6 +1140,7 @@ xnxx.com
 xnxx.net
 xnxx.tv
 xnxx3.com
+xrite.com
 xsts.auth.xboxlive.com
 xtracloud.net
 xv-ru.com
