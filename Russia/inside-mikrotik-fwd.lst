@@ -87,11 +87,8 @@
 /ip dns static add name=avira.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=azathabar.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=azattyq.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
-<<<<<<< HEAD
 /ip dns static add name=azureedge.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
-=======
 /ip dns static add name=babepedia.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
->>>>>>> upstream/main
 /ip dns static add name=babook.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=backend-v2.crixet.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=baginya.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

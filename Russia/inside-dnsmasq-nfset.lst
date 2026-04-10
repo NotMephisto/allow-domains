@@ -87,11 +87,8 @@ nftset=/autodesk.com/4#inet#fw4#vpn_domains
 nftset=/avira.com/4#inet#fw4#vpn_domains
 nftset=/azathabar.com/4#inet#fw4#vpn_domains
 nftset=/azattyq.org/4#inet#fw4#vpn_domains
-<<<<<<< HEAD
 nftset=/azureedge.net/4#inet#fw4#vpn_domains
-=======
 nftset=/babepedia.com/4#inet#fw4#vpn_domains
->>>>>>> upstream/main
 nftset=/babook.org/4#inet#fw4#vpn_domains
 nftset=/backend-v2.crixet.com/4#inet#fw4#vpn_domains
 nftset=/baginya.org/4#inet#fw4#vpn_domains
