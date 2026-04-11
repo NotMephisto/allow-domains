@@ -161,7 +161,7 @@
 </details>
 
 <details>
-  <summary>H.O.D.C.A (Hetzner, OVH, DO, Cloudflare, AWS</summary>
+  <summary>H.O.D.C.A (Hetzner, OVH, DO, Cloudflare, AWS)</summary>
 
 - [RAW](https://raw.githubusercontent.com/NotMephisto/allow-domains/refs/heads/main/Categories/hodca.lst)
 - [SRS](https://github.com/NotMephisto/allow-domains/releases/latest/download/hodca.srs)
