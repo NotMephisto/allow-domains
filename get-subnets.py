@@ -29,6 +29,7 @@ TELEGRAM_V4 = [
 
 CLOUDFLARE = 'cloudflare.lst'
 CLOUDFRONT = 'cloudfront.lst'
+BUNNY_NET = 'bunny.lst' 
 
 # From https://iplist.opencck.org/
 DISCORD_VOICE_V4='https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg&site=discord.media'
@@ -40,6 +41,9 @@ TELEGRAM_CIDR_URL = 'https://core.telegram.org/resources/cidr.txt'
 
 CLOUDFLARE_V4='https://www.cloudflare.com/ips-v4'
 CLOUDFLARE_V6='https://www.cloudflare.com/ips-v6'
+
+BUNNY_V4 = 'https://api.bunny.net/system/edgeserverlist/plain'
+BUNNY_V6 = 'https://api.bunny.net/system/edgeserverlist/IPv6/plain'
 
 # https://support.google.com/a/answer/1279090
 GOOGLE_MEET = 'google_meet.lst'
@@ -189,7 +193,13 @@ if __name__ == '__main__':
     ipv4_cloudfront, ipv6_cloudfront = download_aws_cloudfront_subnets()
     write_subnets_to_file(ipv4_cloudfront, f'{IPv4_DIR}/{CLOUDFRONT}')
     write_subnets_to_file(ipv6_cloudfront, f'{IPv6_DIR}/{CLOUDFRONT}')
-
+    
+    # Bunny
+    print(f'Writing {BUNNY_NET}...')
+    ipv4_bunny, ipv6_bunny = download_subnets(BUNNY_V4, BUNNY_V6)
+    write_subnets_to_file(subnet_summarization(ipv4_bunny), f'{IPv4_DIR}/{BUNNY_NET}')
+    write_subnets_to_file(subnet_summarization(ipv6_bunny), f'{IPv6_DIR}/{BUNNY_NET}')
+        
     # Legacy copies with capitalized names (e.g. meta.lst -> Meta.lst)
     LEGACY_FILES = ['meta.lst', 'twitter.lst', 'discord.lst']
     for legacy_file in LEGACY_FILES:
