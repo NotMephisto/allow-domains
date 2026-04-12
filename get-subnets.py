@@ -18,6 +18,7 @@ ASN_SERVICES = {
     'hetzner.lst': ['24940'],
     'ovh.lst': ['16276'],
     'digitalocean.lst': ['14061'],
+    'cdn77.lst': ['60068'],
 }
 
 ASN_TELEGRAM = ['44907', '59930', '62014', '62041', '211157']
