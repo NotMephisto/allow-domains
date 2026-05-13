@@ -102,6 +102,7 @@
 /ip dns static add name=bellingcat.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bestbuy.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bestchange.ru type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=bigcommerce.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bihus.info type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bitdefender.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bitnami.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

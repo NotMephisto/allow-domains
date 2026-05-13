@@ -102,6 +102,7 @@ ipset=/bell-sw.com/vpn_domains
 ipset=/bellingcat.com/vpn_domains
 ipset=/bestbuy.com/vpn_domains
 ipset=/bestchange.ru/vpn_domains
+ipset=/bigcommerce.com/vpn_domains
 ipset=/bihus.info/vpn_domains
 ipset=/bitdefender.com/vpn_domains
 ipset=/bitnami.com/vpn_domains
