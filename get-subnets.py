@@ -13,9 +13,11 @@ IPv4_DIR = 'Subnets/IPv4'
 IPv6_DIR = 'Subnets/IPv6'
 
 ASN_SERVICES = {
+    'akamai.lst': ['20940', '63949'],
     'meta.lst': ['32934', '63293', '54115', '149642'],
     'twitter.lst': ['13414'],
     'hetzner.lst': ['24940'],
+    'oracle.lst': ['6142', '20054', '31898', '54253'],
     'ovh.lst': ['16276'],
     'digitalocean.lst': ['14061'],
     'cdn77.lst': ['60068'],
