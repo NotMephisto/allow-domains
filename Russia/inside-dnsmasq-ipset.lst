@@ -573,6 +573,7 @@ ipset=/medicalnewstoday.com/vpn_domains
 ipset=/medium.com/vpn_domains
 ipset=/meduza.io/vpn_domains
 ipset=/meetup.com/vpn_domains
+ipset=/mega.co.nz/vpn_domains
 ipset=/mega.nz/vpn_domains
 ipset=/megapeer.ru/vpn_domains
 ipset=/megapeer.vip/vpn_domains

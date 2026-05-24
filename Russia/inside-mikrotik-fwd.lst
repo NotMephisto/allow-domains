@@ -573,6 +573,7 @@
 /ip dns static add name=medium.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=meduza.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=meetup.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=mega.co.nz type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=mega.nz type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=megapeer.ru type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=megapeer.vip type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
