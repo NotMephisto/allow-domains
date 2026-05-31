@@ -164,12 +164,22 @@ def copy_file_legacy(src_filename):
     shutil.copy(src_filename, os.path.join(os.path.dirname(src_filename), new_filename))
 
 if __name__ == '__main__':
+    all_ipv4_subnets = []
+    all_ipv6_subnets = []
+
     # Services from ASN (meta, twitter, hetzner, ovh, digitalocean)
     for filename, asn_list in ASN_SERVICES.items():
         print(f'Fetching {filename}...')
         ipv4, ipv6 = fetch_asn_prefixes(asn_list)
-        write_subnets_to_file(subnet_summarization(ipv4), f'{IPv4_DIR}/{filename}')
-        write_subnets_to_file(subnet_summarization(ipv6), f'{IPv6_DIR}/{filename}')
+        
+        ipv4_summarized = subnet_summarization(ipv4)
+        ipv6_summarized = subnet_summarization(ipv6)
+        
+        write_subnets_to_file(ipv4_summarized, f'{IPv4_DIR}/{filename}')
+        write_subnets_to_file(ipv6_summarized, f'{IPv6_DIR}/{filename}')
+        
+        all_ipv4_subnets.extend(str(s) for s in ipv4_summarized)
+        all_ipv6_subnets.extend(str(s) for s in ipv6_summarized)
 
     # Discord voice
     print(f'Fetching {DISCORD}...')
@@ -177,39 +187,67 @@ if __name__ == '__main__':
     ipv4_discord.extend(DISCORD_CF_V4)
     write_subnets_to_file(ipv4_discord, f'{IPv4_DIR}/{DISCORD}')
     write_subnets_to_file(ipv6_discord, f'{IPv6_DIR}/{DISCORD}')
+    all_ipv4_subnets.extend(ipv4_discord)
+    all_ipv6_subnets.extend(ipv6_discord)
 
     # Telegram
     print(f'Fetching {TELEGRAM}...')
     ipv4_telegram_file, ipv6_telegram_file = download_subnets(TELEGRAM_CIDR_URL)
     ipv4_telegram_asn, ipv6_telegram_asn = fetch_asn_prefixes(ASN_TELEGRAM)
+    
     ipv4_telegram = subnet_summarization(ipv4_telegram_file + ipv4_telegram_asn + TELEGRAM_V4)
     ipv6_telegram = subnet_summarization(ipv6_telegram_file + ipv6_telegram_asn)
+    
     write_subnets_to_file(ipv4_telegram, f'{IPv4_DIR}/{TELEGRAM}')
     write_subnets_to_file(ipv6_telegram, f'{IPv6_DIR}/{TELEGRAM}')
+    
+    all_ipv4_subnets.extend(str(s) for s in ipv4_telegram)
+    all_ipv6_subnets.extend(str(s) for s in ipv6_telegram)
 
     # Cloudflare
     print(f'Fetching {CLOUDFLARE}...')
     ipv4_cloudflare, ipv6_cloudflare = download_subnets(CLOUDFLARE_V4, CLOUDFLARE_V6)
     write_subnets_to_file(ipv4_cloudflare, f'{IPv4_DIR}/{CLOUDFLARE}')
     write_subnets_to_file(ipv6_cloudflare, f'{IPv6_DIR}/{CLOUDFLARE}')
+    all_ipv4_subnets.extend(ipv4_cloudflare)
+    all_ipv6_subnets.extend(ipv6_cloudflare)
 
     # Google Meet
-    print(f'Writing {GOOGLE_MEET}...')
+    print(f'Fetching {GOOGLE_MEET}...')
     write_subnets_to_file(GOOGLE_MEET_V4, f'{IPv4_DIR}/{GOOGLE_MEET}')
     write_subnets_to_file(GOOGLE_MEET_V6, f'{IPv6_DIR}/{GOOGLE_MEET}')
+    all_ipv4_subnets.extend(GOOGLE_MEET_V4)
+    all_ipv6_subnets.extend(GOOGLE_MEET_V6)
 
     # AWS CloudFront
     print(f'Fetching {CLOUDFRONT}...')
     ipv4_cloudfront, ipv6_cloudfront = download_aws_cloudfront_subnets()
     write_subnets_to_file(ipv4_cloudfront, f'{IPv4_DIR}/{CLOUDFRONT}')
     write_subnets_to_file(ipv6_cloudfront, f'{IPv6_DIR}/{CLOUDFRONT}')
+    all_ipv4_subnets.extend(ipv4_cloudfront)
+    all_ipv6_subnets.extend(ipv6_cloudfront)
     
     # Bunny
-    print(f'Writing {BUNNY_NET}...')
+    print(f'Fetching {BUNNY_NET}...')
     ipv4_bunny, ipv6_bunny = download_subnets(BUNNY_V4, BUNNY_V6)
-    write_subnets_to_file(subnet_summarization(ipv4_bunny), f'{IPv4_DIR}/{BUNNY_NET}')
-    write_subnets_to_file(subnet_summarization(ipv6_bunny), f'{IPv6_DIR}/{BUNNY_NET}')
+    
+    ipv4_bunny_summarized = subnet_summarization(ipv4_bunny)
+    ipv6_bunny_summarized = subnet_summarization(ipv6_bunny)
+    
+    write_subnets_to_file(ipv4_bunny_summarized, f'{IPv4_DIR}/{BUNNY_NET}')
+    write_subnets_to_file(ipv6_bunny_summarized, f'{IPv6_DIR}/{BUNNY_NET}')
+    
+    all_ipv4_subnets.extend(str(s) for s in ipv4_bunny_summarized)
+    all_ipv6_subnets.extend(str(s) for s in ipv6_bunny_summarized)
         
+    # All Subnets
+    print('Generating all-subnets.lst...')
+    all_ipv4_final = subnet_summarization(all_ipv4_subnets)
+    all_ipv6_final = subnet_summarization(all_ipv6_subnets)
+    
+    write_subnets_to_file(all_ipv4_final, f'{IPv4_DIR}/all-subnets.lst')
+    write_subnets_to_file(all_ipv6_final, f'{IPv6_DIR}/all-subnets.lst')
+
     # Legacy copies with capitalized names (e.g. meta.lst -> Meta.lst)
     LEGACY_FILES = ['meta.lst', 'twitter.lst', 'discord.lst']
     for legacy_file in LEGACY_FILES:
