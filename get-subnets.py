@@ -14,7 +14,7 @@ IPv6_DIR = 'Subnets/IPv6'
 
 ASN_SERVICES = {
     'akamai.lst': ['20940', '63949'],
-    'google.lst': ['AS15169'],
+    'google.lst': ['15169'],
     'meta.lst': ['32934', '63293', '54115', '149642'],
     'twitter.lst': ['13414'],
     'hetzner.lst': ['24940'],
