@@ -129,6 +129,7 @@ DOMAIN-SUFFIX,buf.build
 DOMAIN-SUFFIX,bufferbloat.net
 DOMAIN-SUFFIX,builds.parsec.app
 DOMAIN-SUFFIX,buymeacoffee.com
+DOMAIN-SUFFIX,byspotify.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,canva.dev
@@ -765,6 +766,7 @@ DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonvpn.com
 DOMAIN-SUFFIX,provereno.media
 DOMAIN-SUFFIX,prowlarr.com
+DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,psiphon.ca
 DOMAIN-SUFFIX,public.parsec.app
@@ -849,6 +851,7 @@ DOMAIN-SUFFIX,sankakucomplex.com
 DOMAIN-SUFFIX,sankakustatic.com
 DOMAIN-SUFFIX,sap.com
 DOMAIN-SUFFIX,saverudata.net
+DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,schneider-electric.com
 DOMAIN-SUFFIX,sci-hub.se
 DOMAIN-SUFFIX,sci-hub.st
@@ -932,7 +935,17 @@ DOMAIN-SUFFIX,spektr.press
 DOMAIN-SUFFIX,spiceworks.com
 DOMAIN-SUFFIX,spiegel.de
 DOMAIN-SUFFIX,spitfireaudio.com
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,spotify-everywhere.com
 DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotify.design
+DOMAIN-SUFFIX,spotify.link
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-SUFFIX,spotifycharts.com
+DOMAIN-SUFFIX,spotifycodes.com
+DOMAIN-SUFFIX,spotifyforbrands.com
+DOMAIN-SUFFIX,spotifyjobs.com
 DOMAIN-SUFFIX,spreadthesign.com
 DOMAIN-SUFFIX,sputnikipogrom.com
 DOMAIN-SUFFIX,squadbustersgame.com
@@ -1015,6 +1028,7 @@ DOMAIN-SUFFIX,toolbox.app
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,torrenteditor.com
 DOMAIN-SUFFIX,torrentgalaxy.to
+DOMAIN-SUFFIX,tospotify.com
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,trailblazer.me
 DOMAIN-SUFFIX,trailhead.com

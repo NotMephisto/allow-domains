@@ -129,6 +129,7 @@
 /ip dns static add name=bufferbloat.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=builds.parsec.app type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=buymeacoffee.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=byspotify.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=byteoversea.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=canva.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=canva.dev type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -765,6 +766,7 @@
 /ip dns static add name=protonvpn.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=provereno.media type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=prowlarr.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=pscdn.co type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=pscp.tv type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=psiphon.ca type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=public.parsec.app type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -849,6 +851,7 @@
 /ip dns static add name=sankakustatic.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=sap.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=saverudata.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=scdn.co type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=schneider-electric.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=sci-hub.se type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=sci-hub.st type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -931,7 +934,17 @@
 /ip dns static add name=spiceworks.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=spiegel.de type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=spitfireaudio.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spoti.fi type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spotify-everywhere.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=spotify.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spotify.design type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spotify.link type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spotifycdn.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spotifycdn.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spotifycharts.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spotifycodes.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spotifyforbrands.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=spotifyjobs.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=spreadthesign.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=sputnikipogrom.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=squadbustersgame.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -1014,6 +1027,7 @@
 /ip dns static add name=torproject.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=torrenteditor.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=torrentgalaxy.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=tospotify.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=trae.ai type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=trailblazer.me type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=trailhead.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
