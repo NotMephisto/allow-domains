@@ -1021,6 +1021,7 @@ ipset=/thepiratebay.org/vpn_domains
 ipset=/theporndude.com/vpn_domains
 ipset=/thetruestory.news/vpn_domains
 ipset=/thetvdb.com/vpn_domains
+ipset=/threads.com/vpn_domains
 ipset=/threads.net/vpn_domains
 ipset=/threema.ch/vpn_domains
 ipset=/ti.com/vpn_domains
