@@ -68,7 +68,6 @@ api.service-kp.com
 api.theins.info
 api.themoviedb.org
 apkmirror.com
-app.zerossl.com
 arbat.media
 arc.net
 archive.ph
@@ -197,6 +196,9 @@ crunchyroll.com
 csskor.ill.in.ua
 cub.red
 currenttime.tv
+cursor-cdn.com
+cursor.sh
+cursorapi.com
 cursorinfo.co.il
 cvedetails.com
 cyberghostvpn.com
@@ -343,7 +345,12 @@ fortanga.org
 forum.netgate.com
 forum.ru-board.com
 foxnews.com
+framer.app
 framer.com
+framercanvas.com
+framercdn.com
+framerstatic.com
+framerusercontent.com
 freedomletters.org
 freeimages.com
 freemedia.io
@@ -440,6 +447,7 @@ ibytedtos.com
 idelreal.org
 iditelesombase.org
 idolcomplex.com
+iedb.org
 ig.me
 ign.com
 iherb.com
@@ -476,6 +484,7 @@ itsmycity.ru
 jamf.com
 jetbrains.com
 jetbrains.space
+jetbrains.team
 jnn-pa.googleapis.com
 joesandbox.com
 jskor.ill.in.ua
@@ -716,6 +725,7 @@ paritydeals.com
 patreon.com
 patreonusercontent.com
 patriot.dp.ua
+paywithmoon.com
 pb.wtf
 pcgamesn.com
 pcmag.com
@@ -770,6 +780,7 @@ pscp.tv
 psiphon.ca
 public.parsec.app
 pvpessence.com
+qobuz.com
 qodana.cloud
 qoder.com
 qt.io
@@ -886,6 +897,8 @@ sephora.com
 servarr.com
 severreal.org
 sfdcopens.com
+sharefile.com
+sharefile.io
 shikimori.me
 shikimori.one
 shinyhardware.co.uk
@@ -894,6 +907,7 @@ shop.gameloft.com
 showip.net
 sibreal.org
 signal.org
+sigsauer.com
 simplex.chat
 simplex.im
 simplix.info
@@ -975,6 +989,7 @@ swagger.io
 swapd.co
 swissinfo.ch
 synoforum.com
+syslog-ng.com
 t-invariant.org
 tableau.com
 talosintelligence.com
@@ -1115,6 +1130,7 @@ watchguard.com
 watermarkremover.io
 wbagora.com
 wbgames.com
+wdfiles.com
 weather.com
 webmd.com
 webnames.ca
@@ -1181,4 +1197,5 @@ zbigz.com
 zedge.net
 zendesk.com
 zerkalo.io
+zerossl.com
 zona.media
