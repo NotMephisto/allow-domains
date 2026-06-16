@@ -16,6 +16,7 @@
 /ip dns static add name=abook-club.ru type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=academy.terrasoft.ua type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=activatica.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=adguard-vpn.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=adguard.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=adidas.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=adminforge.de type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -440,7 +441,6 @@
 /ip dns static add name=idelreal.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=iditelesombase.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=idolcomplex.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
-/ip dns static add name=iedb.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=ig.me type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=ign.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=iherb.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -450,6 +450,7 @@
 /ip dns static add name=image.tmdb.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=imgur.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=important-stories.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=incy.cc type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=indeed.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=indiehackers.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=infineon.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -481,8 +482,6 @@
 /ip dns static add name=jskor.ill.in.ua type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=jut-su.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=jut.su type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
-/ip dns static add name=jw-russia.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
-/ip dns static add name=jw.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=kaktus.media type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=kaleido.ai type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=kamatera.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
