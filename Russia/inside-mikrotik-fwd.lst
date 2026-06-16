@@ -558,6 +558,7 @@
 /ip dns static add name=mailo.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=make.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=malwarebytes.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=manga-chan.me type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=mangadex.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=mangahub.ru type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=mangapark.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

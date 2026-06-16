@@ -558,6 +558,7 @@ ipset=/mailinator.com/vpn_domains
 ipset=/mailo.com/vpn_domains
 ipset=/make.com/vpn_domains
 ipset=/malwarebytes.com/vpn_domains
+ipset=/manga-chan.me/vpn_domains
 ipset=/mangadex.org/vpn_domains
 ipset=/mangahub.ru/vpn_domains
 ipset=/mangapark.net/vpn_domains

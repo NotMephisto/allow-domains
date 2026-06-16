@@ -558,6 +558,7 @@ nftset=/mailinator.com/4#inet#fw4#vpn_domains
 nftset=/mailo.com/4#inet#fw4#vpn_domains
 nftset=/make.com/4#inet#fw4#vpn_domains
 nftset=/malwarebytes.com/4#inet#fw4#vpn_domains
+nftset=/manga-chan.me/4#inet#fw4#vpn_domains
 nftset=/mangadex.org/4#inet#fw4#vpn_domains
 nftset=/mangahub.ru/4#inet#fw4#vpn_domains
 nftset=/mangapark.net/4#inet#fw4#vpn_domains
