@@ -305,6 +305,7 @@ ipset=/expres.online/vpn_domains
 ipset=/extremetech.com/vpn_domains
 ipset=/f1.com/vpn_domains
 ipset=/f95-zone.to/vpn_domains
+ipset=/f95zone.to/vpn_domains
 ipset=/facebook.com/vpn_domains
 ipset=/facebook.net/vpn_domains
 ipset=/fansly.com/vpn_domains

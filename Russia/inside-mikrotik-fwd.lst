@@ -305,6 +305,7 @@
 /ip dns static add name=extremetech.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=f1.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=f95-zone.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=f95zone.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=facebook.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=facebook.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=fansly.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
