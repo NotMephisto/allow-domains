@@ -1,0 +1,65 @@
+name: Sort domain lists
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Categories/*.lst'
+      - 'Services/*.lst'
+      - 'sort-lists.py'
+  pull_request:
+    paths:
+      - 'Categories/*.lst'
+      - 'Services/*.lst'
+      - 'sort-lists.py'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sort-lists
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify lists are sorted
+        run: python3 sort-lists.py --check
+
+  sort:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sort lists
+        run: python3 sort-lists.py
+
+      - name: Commit sorted lists
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "Nothing to commit, lists already sorted."
+          else
+            git add -A
+            git commit -m "chore: sort domain lists [skip ci]"
+            git push
+          fi
