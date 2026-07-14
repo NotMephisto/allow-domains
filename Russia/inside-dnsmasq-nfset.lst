@@ -127,6 +127,7 @@ nftset=/btod.com/4#inet#fw4#vpn_domains
 nftset=/buanzo.org/4#inet#fw4#vpn_domains
 nftset=/buf.build/4#inet#fw4#vpn_domains
 nftset=/bufferbloat.net/4#inet#fw4#vpn_domains
+nftset=/build.lwjgl.org/4#inet#fw4#vpn_domains
 nftset=/builds.parsec.app/4#inet#fw4#vpn_domains
 nftset=/buymeacoffee.com/4#inet#fw4#vpn_domains
 nftset=/byspotify.com/4#inet#fw4#vpn_domains

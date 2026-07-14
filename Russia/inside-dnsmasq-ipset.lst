@@ -127,6 +127,7 @@ ipset=/btod.com/vpn_domains
 ipset=/buanzo.org/vpn_domains
 ipset=/buf.build/vpn_domains
 ipset=/bufferbloat.net/vpn_domains
+ipset=/build.lwjgl.org/vpn_domains
 ipset=/builds.parsec.app/vpn_domains
 ipset=/buymeacoffee.com/vpn_domains
 ipset=/byspotify.com/vpn_domains

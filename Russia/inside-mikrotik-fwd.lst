@@ -127,6 +127,7 @@
 /ip dns static add name=buanzo.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=buf.build type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bufferbloat.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=build.lwjgl.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=builds.parsec.app type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=buymeacoffee.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=byspotify.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
