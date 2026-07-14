@@ -325,6 +325,7 @@
 /ip dns static add name=filmix.fan type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=filmix.fm type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=filmix.la type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=fitgirl-repacks.site type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=fivetran.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=flibusta.is type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=flibusta.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -377,6 +378,7 @@
 /ip dns static add name=ghostrc.game.idtech.services type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=gifyu.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=git.new type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=gl-inet.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=glavred.info type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=glavred.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=global.fncstatic.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -460,6 +462,7 @@
 /ip dns static add name=ikea.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=ilook.tv type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=image.tmdb.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=imdb.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=imgur.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=important-stories.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=incy.cc type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
