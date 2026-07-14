@@ -5,10 +5,12 @@ on:
     branches: [ "main" ]
     paths:
       - .github/workflows/create-lists.yml
-      - Categories/**
-      - Services/**
       - src/**
       - convert.py
+  workflow_run:
+    workflows: ["Sort domain lists"]
+    types: [completed]
+    branches: [main]
   schedule:
     - cron: '29 8 * * 1'
 
@@ -17,9 +19,14 @@ permissions:
 
 jobs:
   generate-lists:
+    if: >
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push')
     runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v6.0.2
+      with:
+        ref: ${{ github.event.workflow_run.head_sha || github.ref }}
 
     - name: Cache sing-box
       uses: actions/cache@v5.0.3
