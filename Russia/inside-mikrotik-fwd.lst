@@ -400,6 +400,8 @@
 /ip dns static add name=grizzlysms.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=grok.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=grok.x.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=grokipedia.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=grokusercontent.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=groq.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=groupon.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=guilded.gg type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
