@@ -26,7 +26,7 @@ def sort_content(original: str) -> str:
 
     out_lines: list[str] = []
     for i, group in enumerate(groups):
-        unique_sorted = sorted(dict.fromkeys(group), key=str.lower)
+        unique_sorted = sorted({line.lower(): line for line in group}.values(), key=str.lower)
         out_lines.extend(unique_sorted)
         if i != len(groups) - 1:
             out_lines.append("")
